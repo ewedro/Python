@@ -65,3 +65,7 @@ print(' ')
 
 q_dens = "SELECT name, CAST(population as float)/CAST(area as float) AS density FROM facts ORDER BY density DESC LIMIT 10"
 print(pd.read_sql_query(q_dens, conn))
+
+print(' ')
+print('That is all')
+print(' ')
